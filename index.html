@@ -3,6 +3,33 @@
 <head>
   <meta charset="utf-8">
   <title>Fatima Ezzeddine</title>
+  <style>
+    .blurred-div {
+      position: relative;
+      width: 200%;
+      max-width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(5px);
+      border-radius: 10px;
+      margin: 30px auto;
+      padding: 5%;
+      text-align: left;
+      font-size: 17px;
+      font-family:'Garamond';
+      line-height: 150%;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .image-container img {
+      max-width: 25%;
+    }
+
+  </style>
   <meta name="description" content="Fatima Ezzeddine's Website">
   <meta name="author" content="Fatima Ezzeddine" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -13,43 +40,192 @@
   <style type="text/css"> @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');</style>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" type="text/css">
+
 </head>
 <body>
-
 <!-- particles.js container  -->
 <div id="particles-js"> </div>
 <div class="Name">
- <center>
   <h1 style="font-family:Garamond">Fatima Ezzeddine</h1>
-  <h2 style="font-family:Garamond"> PhD Student @USI-SUPSI</h2>
-  <h2 style="font-family:Garamond"> Website under construction :) </h2>
+  <h2 style="font-family:Garamond"> PhD Student in Informatics @USI/SUPSI</h2>
+  <h5 style="font-family:Garamond"> Università della Svizzera italiana (USI)</h5>
+  <h5 style="font-family:Garamond"> University of Applied Sciences and Arts of Southern Switzerland (SUPSI)</h5>
+  <br>
   <a href="https://www.linkedin.com/in/fatima-ezzeddine-324266182/" style="color: white;"><i class="fab fa-linkedin" style="font-size: 2em;"></i></a>
-  &nbsp
+  &nbsp;
   <a href="https://github.com/FatimaEzzedinee" style="color: white;"><i class="fab fa-github" style="font-size: 2em;"></i></a>
-  &nbsp
+  &nbsp;
   <a href="https://medium.com/@fatima7199ezz" style="color: white;"><i class="fab fa-medium" style="font-size: 2em;"></i></a>
-  &nbsp
+  &nbsp;
   <a href="https://www.facebook.com/profile.php?id=100010933728004" style="color: white;"><i class="fab fa-facebook" style="font-size: 2em;"></i></a>
-  &nbsp
+  &nbsp;
   <a href="https://www.instagram.com/fatima_ezzeddine7/" style="color: white;"><i class="fab fa-instagram" style="font-size: 2em;"></i></a>
-  &nbsp
+  &nbsp;
   <a href="https://scholar.google.com/citations?user=r0M0vyMAAAAJ&hl=en" style="color: white;"><i class="fab fa-google" style="font-size: 2em;"></i></a>
+  <br><br><br>
+  <div class="image-container">
+    <img src="privacy.jpg" alt="Image 1">
+    <img src="xai.jpg" alt="Image 2">
+    <img src="brain_ai.jpg" alt="Image 3">
+  </div>
   
-</center>
 </div>
 
+<br>
+
 <div class="text">
-  
   <nav class="style-4">
     <ul class="menu-4">
-      <li class="current"><a href="#" data-hover="Home" onclick="DisplayHome();">Home</a></li>
-      <li class="current"><a href="#" data-hover="Research" onclick="DisplayResearch();">Research</a></li>
-      <li class="current"><a href="#" data-hover="Experience" onclick="DisplayExperience();">Experience</a></li>
-      <li class="current"><a href="#" data-hover="Skills" onclick="DisplaySkills();">Skills</a></li>
-      <li class="current"><a href="#" data-hover="Publications" onclick="DisplayPublications();">Publications</a></li>
+      <li class="current"><a href="#Home" data-hover="About Me">About Me</a></li>
+      <li class="current"><a href="#Education" data-hover="Education">Education</a></li>
+      <li class="current"><a href="#Experience" data-hover="Experience">Experience</a></li>
+      <li class="current"><a href="#Skills" data-hover="Skills">Skills</a></li>
+      <li class="current"><a href="#Awards" data-hover="Awards">Awards</a></li>
+      <li class="current"><a href="#Activities" data-hover="Activities">Activities</a></li>
+      <li class="current"><a href="#Publications" data-hover="Publications">Publications</a></li>
     </ul>
   </nav>
-  <div class='box' id='content'></div></div>
+  <div class='blurred-div' id='content'>
+    <div id="Home">
+      <h1>About me</h1>
+      <hr>
+      <br>
+      <p><i class="fas fa-calendar-alt icon"></i> 7 January 1999</p>
+      <p><i class="fas fa-map-marker-alt icon"></i> Lugano, Switzerland</p>
+      <p><i class="fas fa-globe icon"></i> Lebanese</p>
+      <p><i class="fas fa-envelope icon"></i> fatima.ezzeddine@usi.ch</p>
+      <p><i class="fas fa-envelope icon"></i> fatima.ezzeddine@supsi.ch</p>
+      <p><i class="fas fa-envelope icon"></i> fatima_ezzeddine@outlook.com</p>
+      <p><i class="fas fa-phone-alt icon"></i> +41 78 255 52 44</p>
+      <br>
+      Drop Me an email or a message and let's chat!
+    </div>
+    <br><br>
+    <hr>
+    <div id="Education">
+      <h1>Education</h1>
+      <hr>
+      <br>
+      <h2><b>PhD Degree</b></h2>
+      <p><strong>2022 - present:</strong> Informatics, Università della Svizzera Italiana (USI), Faculty of Informatics.</p>
+      <p><strong>Specialization:</strong> Artificial Intelligence (AI), Explainable Artificial Intelligence (XAI), Machine Learning (ML), Privacy.</p>
+      <p><strong>Advisors:</strong> Prof. Marc Langheinrich (Università della Svizzera italiana) and Prof. Silvia Giordano (University of Applied Sciences and Arts of Southern Switzerland - SUPSI).</p>
+      <p><strong>Activities:</strong> Research about privacy-preserving Machine Learning and the tradeoff privacy and explainability.</p>
+      <br>
+      <h2>MSc Degree</h2>
+      <p><strong>2019 - 2021:</strong> Information Systems and Data Intelligence, Lebanese University - Faculty of Science I, Applied Mathematics Department.</p>
+      <p><strong>Thesis Title:</strong> Behavior Analysis and Detection of Trolls Via Inverse Reinforcement Learning and Recurrent Neural Networks.</p>
+      <p><strong>Advisors:</strong> Prof. Ihab Sbeity (Lebanese University) and Prof. Silvia Giordano (SUPSI).</p>
+      <p><strong>Rank:</strong> Graduated among top 3 of class. Grade: 79.22/100.</p>
+      <br>
+      <h2>BSc Degree</h2>
+      <p><strong>2016 - 2019:</strong> Computer Science, Lebanese University - Faculty of Science I, Applied Mathematics Department.</p>
+      <p><strong>Graduation Project:</strong> Gates Management System - Internet of Things (IoT) project powered by Raspberry Pi to manage visitor and tenant access to gates via facial recognition.</p>
+      <br>
+      <h2>Secondary School/Baccalaureate Degree</h2>
+      <p><strong>2016:</strong> Abbassieh Public High School, Lebanese baccalaureate in General Sciences.</p>
+    </div>
+    <br><br>
+    <hr>
+    <div id="Experience">
+      <h1>Research Experience</h1>
+      <hr>
+      <br>
+      <p><strong>March 2023 - present:</strong> Master students Assistant, University of Applied Sciences and Arts of Southern Switzerland, Department of Innovative Technologies.</p>
+      <br>
+      <p><strong>February 2022 - July 2022:</strong> Research Collaborator, Application of Explainable Artificial Intelligence technologies, University of Applied Sciences and Arts of Southern Switzerland, Department of Innovative Technologies.</p>
+      <br>
+      <p><strong>March - November 2021:</strong> Lebanese University - SUPSI - A project in collaboration between the Lebanese University and the University of Applied Sciences and Arts of Southern Switzerland (SUPSI).</p>
+      <p>Develop ML-based techniques to identify malicious accounts. Methods used: Inverse Reinforcement Learning, Recurrent Neural Networks, exploratory sequential data analysis.</p>
+    </div>
+    <br><br>
+    <hr>
+    <div id="Industrial Experience">
+      <h1>Industrial Experience</h1>
+      <hr>
+      <br>
+      <p><strong>February 2022 - August 2022</strong> Software Engineer at Intalio-Everteam Global services - Member of the Research and Development AI Team and the Expertise Team. Roles: Develop AI-based systems using machine learning and Artificial Intelligence. Develop web-based services using .NET Core 6.</p>
+      <br>
+      <p><strong>November 2021 - February 2022</strong> Software Engineer at Mayan Cycles Sustainability Solutions - Member of the Software Team. Roles: environmental data analysis and visualization, project planning, building databases, web development.</p>
+      <br>
+      <p><strong>September - November 2020</strong> Machine Learning Content Developer at Zaka - Internship. Understand the technical aspect of artificial intelligence and the fundamental concepts: Deep learning, Computer vision, Time-series data Prediction/Classification, basics of Reinforcement learning.</p>
+      <br>
+      <p><strong>August - September 2019</strong> Software Engineer at Intalio-Everteam Global services - Internship. Building Databases using MySQL, developing a full website using Visual Studio 2017, Asp.Net Core, CSharp.NET, Entity Framework 5.0. Developing a GUI using Python (Kivy framework) and mastering Raspberry PI software.</p>
+    </div>
+    <br><br>
+    <hr>
+    <div id="Skills">
+      <h1>Skills</h1>
+      <hr>
+      <br>
+      <p><strong>Programming:</strong> Python, Java, C, Csharp, Prolog, SPARQL, OWL, MATLAB.</p>
+      <br>
+      <p><strong>Frameworks:</strong> Python for Machine Learning and Data Science (Keras, TensorFlow, Pytorch, Numpy, Pandas, scikit-learn), for Reinforcement Learning (OpenAI Gym), Docker, Kubernetes.</p>
+      <br>
+      <p><strong>Development:</strong> JavaFx, PHP, Asp.Net Core, HTML, Ajax, JQuery, JavaScript, Flask.</p>
+      <br>
+      <p><strong>Data Base:</strong> SQL, NoSQL (Mongo DB).</p>
+      <br>
+      <p><strong>OS:</strong> Windows, Linux.</p>
+      <br>
+      <p><strong>Softwares:</strong> ArcGIS, Git/Github, Jira, Hadoop, Oracle, Unity, Rapid Miner.</p>
+      <br>
+      <p><strong>Other:</strong> Latex, System Administration, Multi-threading, Multi-Processing, Design Patterns, Socket Programing.</p>
+    </div>
+    <br><br>
+    <hr>
+    <div id="Awards">
+      <h1>Honors and Awards</h1>
+      <hr>
+      <br>
+      <p>Swiss Government Excellence Scholarship for a PhD program in Informatics at USI (Università della Svizzera italiana).</p>
+    </div>
+    <br><br>
+    <hr>
+    <div id="Activities">
+      <h1>Activities</h1>
+      <hr>
+      <br>
+      <p><strong>Nov. 2021 - July 2022:</strong> Lebanese Red Cross Volunteer: Youth and Junior sector. Part of the Humanitarian Values and Principles Program (HVP).</p>
+      <br>
+      <p><strong>2021:</strong> Beirut AI Member</a>: Community of Lebanese Artificial Intelligence enthusiasts from different backgrounds.</p>
+     
+
+      
+    </div>
+    <br><br>
+    <hr>
+    <div id="Publications">
+      <h1>Publications</h1>
+      <hr>
+      <br>
+      <p><strong>2023</strong> - SAC-FACT: Soft Actor-Critic Reinforcement Learning for Counterfactual Explanations (accepted) - 1st International Conference on eXplainable Artificial Intelligence (xAI 2023).</p>
+      <p>Authors:<strong> Fatima Ezzeddine</strong>, Omran Ayoub, Davide Andreoletti and Silvia Giordano.</p>
+      <br>
+      <p><strong>2023</strong> - ML-based Network Pruning for Routing Data Overhead Reduction in Wireless Sensor Networks (published) - Wireless On-demand Network systems and Services Conference.</p>
+      <p>Authors: Davide Andreoletti, Cristina Rottondi, <strong>Fatima Ezzeddine</strong>, Omran Ayoub and Silvia Giordano.</p>
+      <br>
+      <p><strong>2022</strong> - On the Benefits of Explainable Artificial Intelligence in Communication Networks: A Use Case of Failure Identification in Microwave Networks (published) - 'Computer Networks Journal'.</p>
+      <p>Authors: Omran Ayoub, Nicola Di Cicco, <strong>Fatima Ezzeddine</strong>, Federica Bruschetta, Michele Milano, Francesco Musumeci, Claudio Passera and Massimo Tornatore.</p>
+      <br>
+      <p><strong>2022</strong> - On Using Explainable Artificial Intelligence for Failure Identification in Microwave Networks (published) - Conference on Innovation in Clouds, Internet and Networks (ICIN 2022).</p>
+      <p>Authors: Omran Ayoub, Francesco Musumeci, <strong>Fatima Ezzeddine</strong>, Claudio Passera, and Massimo Tornatore.</p>
+      <br>
+      <p><strong>2022</strong> - Tantrum-Track: Context and Ontological Representation Model for Recommendation and Tracking Services for People with Autism (published)- 'Artificial Intelligence Conference 2022 (IntelliSys 2022), and Springer Nature Series'</p>
+      <p>Authors: Hamid Mcheik, <strong>Fatima Ezzeddine</strong>, Fatima Lakkis, Batoul Mcheik, Mariam Ezzeddine.</p>
+      <br>
+      <p><strong>2022</strong> - Characterizing and Detecting State-Sponsored Troll Activity on Social Media - Paper submitted.</p>
+      <p>Authors: <strong>Fatima Ezzeddine</strong>, Omran Ayoub, Silvia Giordano, Gianluca Nogara, Ihab Sbeity, Emilio Ferrara, and Luca Luceri.</p>
+    </div>
+<br>
+    Figures from:
+    <br>
+    1. https://students.bowdoin.edu/bowdoin-science-journal/csci-tech/mimicking-the-human-brain-the-role-of-heterogeneity-in-artificial-intelligence/
+    <br>
+    2. unsplash.com
+  </div>
+</div>
 
 
 <!-- scripts -->
