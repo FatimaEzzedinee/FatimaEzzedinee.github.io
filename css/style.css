@@ -118,35 +118,36 @@ canvas {
 }
 
 .Name {
+  display: block;
   position: relative;
-  z-index: 1; /* Increase the z-index value */
+  z-index: 2;
   top: 50%;
-  right: 50%;
-  transform: translate(50%,-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #FFFFFF;
   font-size: 24px;
   padding: 2em 3em;
-  background: rgba(128,128,128, 0);
+  background: rgba(128, 128, 128, 0);
   text-shadow: 0px 0px 0px #131415;
   color: white;
   font-family: 'Courier', sans-serif;
+  margin-bottom: 20px;
 }
 
 .text {
-  position: absolute;
-  top: 0%;
-  right: 50%;
+  display: block;
+  position: relative;
+  z-index: 1;
   width: 100%;
-  transform: translate(50%,-50%);
-  color: $text;
-  width: 75%;
   max-width: 100%;
   padding: 2em 3em;
-  background: rgba(128,128,128, 0);
+  padding-top: 3%;
+  background: rgba(128, 128, 128, 0);
   text-shadow: 0px 0px 2px #131415;
   color: white;
   font-family: 'Courier', sans-serif;
 }
+
 
 .box {
   position: absolute;

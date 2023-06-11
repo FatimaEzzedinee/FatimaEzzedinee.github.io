@@ -29,6 +29,34 @@
       max-width: 25%;
     }
 
+  .div1 {
+      flex: 1 0 100%;
+      /* Set the desired width for div1 in mobile view */
+    }
+
+    .div2 {
+      flex: 1 0 100%;
+      /* Set the desired width for div2 in mobile view */
+    }
+
+    .cont {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    @media (min-width: 768px) {
+      .div1 {
+        flex: 1 0 50%;
+        /* Set the desired width for div1 in larger screens */
+      }
+      
+      .div2 {
+        flex: 1 0 50%;
+        position: relative;
+        /* Set the desired width for div2 in larger screens */
+      }
+    }
+
   </style>
   <meta name="description" content="Fatima Ezzeddine's Website">
   <meta name="author" content="Fatima Ezzeddine" />
@@ -46,7 +74,8 @@
 <body>
 <!-- particles.js container  -->
 <div id="particles-js"> </div>
-<div class="Name">
+
+<div class="Name div1">
   <h1 style="font-family:Garamond">Fatima Ezzeddine</h1>
   <h2 style="font-family:Garamond"> PhD Student in Informatics @USI/SUPSI</h2>
   <h5 style="font-family:Garamond"> Università della Svizzera italiana (USI)</h5>
@@ -74,7 +103,7 @@
 
 <br>
 
-<div class="text">
+<div class="text div2">
   <nav class="style-4">
     <ul class="menu-4">
       <li class="current"><a href="#Home" data-hover="About Me">About Me</a></li>
